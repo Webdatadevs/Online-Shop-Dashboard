@@ -43,6 +43,7 @@ const UpdateProduct = ({
         setImage(`${state.products?.find((element) => (element.id === UpdateProductId))?.image}`);
         setPrice(`${state.products?.find((element) => (element.id === UpdateProductId))?.price}`);
         setDescription(`${state.products?.find((element) => (element.id === UpdateProductId))?.description}`);
+        setSelect(`${state.products?.find((element) => (element.id === UpdateProductId))?.categoryId}`);
     }, [UpdateProductId]);
 
     async function updateProduct(id) {
