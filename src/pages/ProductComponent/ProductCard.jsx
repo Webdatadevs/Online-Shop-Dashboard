@@ -70,7 +70,7 @@ const ProductCard = ({ colorMode, load }) => {
             );
         onClose();
         getProductsAxiosFunction(url, dispatch);
-        getCategoriesAxiosFunction(url, dispatch);
+        getCategoriesAxiosFunction('https://online-shop-db.onrender.com/categories', dispatch);
     };
 
     return (

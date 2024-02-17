@@ -81,7 +81,7 @@ const CategoriesCard = ({ colorMode }) => {
     };
 
     useEffect(() => {
-        getProductsAxiosFunction(url, dispatch);
+        getProductsAxiosFunction('https://online-shop-db.onrender.com/products', dispatch);
     }, []);
 
     return (

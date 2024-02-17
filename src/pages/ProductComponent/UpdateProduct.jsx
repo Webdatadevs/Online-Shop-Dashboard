@@ -84,7 +84,7 @@ const UpdateProduct = ({
     }
 
     useEffect(()=>{
-        getCategoriesAxiosFunction(url, dispatch);
+        getCategoriesAxiosFunction('https://online-shop-db.onrender.com/categories', dispatch);
     }, [])
     return (
         <>
