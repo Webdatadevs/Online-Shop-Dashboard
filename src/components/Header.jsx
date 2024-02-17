@@ -22,7 +22,7 @@ const Header = ({ headerBackground, toggleColorModeFun, colorMode }) => {
                     <Icon as={ buttonData.find((element) => element.path === pathname).icon } 
                     color={`${colorMode === 'light' ? 'dodgerblue' : 'white'}`} fontSize={{base:"14px"}} />
                 </Box>
-                <Text fontSize={{base:'14px'}} color={"white"}>
+                <Text fontSize={{base:'14px', md:'24px'}} color={"white"}>
                     {
                         buttonData.find((element) => element.path === pathname).name
                     }
